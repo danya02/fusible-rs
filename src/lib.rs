@@ -1,5 +1,7 @@
 pub mod fs;
 pub use fs::RoutableFilesystem;
+pub mod handler;
+pub mod identity;
 
 pub fn add(left: usize, right: usize) -> usize {
     left + right
